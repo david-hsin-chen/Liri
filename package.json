@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "liri-node-app",
   "main": "index.js",
+  "dependencies": {
+    "request": "^2.83.0",
+    "twitter": "^1.7.1",
+    "spotify": "^0.3.0"
+  },
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +16,7 @@
     "type": "git",
     "url": "git+https://github.com/mithsin/liri-node-app.git"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Hsin(David) Chen",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/mithsin/liri-node-app/issues"
