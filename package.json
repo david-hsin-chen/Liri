@@ -2,12 +2,7 @@
   "name": "liri-node-app",
   "version": "1.0.0",
   "description": "liri-node-app",
-  "main": "index.js",
-  "dependencies": {
-    "request": "^2.83.0",
-    "twitter": "^1.7.1",
-    "spotify": "^0.3.0"
-  },
+  "main": "keys.js",
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/mithsin/liri-node-app/issues"
   },
-  "homepage": "https://github.com/mithsin/liri-node-app#readme"
+  "homepage": "https://github.com/mithsin/liri-node-app#readme",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.83.0",
+    "twitter": "^1.7.1"
+  }
 }
